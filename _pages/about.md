@@ -1,10 +1,8 @@
 ---
-permalink: /qiushizhang.github.io/about/
-title: "Qiushi Zhang"
+layout: single
+title: "About"
+permalink: /about/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I am a Master’s student in **Mechanical Engineering** at **Carnegie Mellon University**, 
