@@ -1,9 +1,9 @@
 main:
   - title: "About"
-    url: /qiushizhang.github.io/about/
+    url: /about/
 
   - title: "Projects"
-    url: /qiushizhang.github.io/portfolio/
+    url: /portfolio/
 
   - title: "Resume"
-    url: /qiushizhang.github.io/resume/
+    url: /resume/
