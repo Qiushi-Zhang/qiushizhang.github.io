@@ -1,6 +1,7 @@
-# Top navigation links (simplified)
-
 main:
+  - title: "About"
+    url: /qiushizhang.github.io/about/
+
   - title: "Projects"
     url: /qiushizhang.github.io/portfolio/
 
