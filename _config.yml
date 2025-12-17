@@ -22,7 +22,7 @@ nav: "main"
 # Author Profile (Sidebar)
 # ===============================
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Qiushi Zhang"
   bio              : "M.S. student in Mechanical Engineering at Carnegie Mellon University working on robot manipulation and force control."
   location         : "Pittsburgh, PA"
