@@ -7,10 +7,10 @@ author_profile: true
 
 ## Resume
 
-📄 **[Download my resume (PDF)](/assets/Qiushi_Zhang_Resume.pdf)**
+📄 **[Download my resume (PDF)]({{ site.baseurl }}/assets/Qiushi_Zhang_Resume.pdf)**
 
 <iframe
-  src="/assets/Qiushi_Zhang_Resume.pdf"
+  src="{{ site.baseurl }}/assets/Qiushi_Zhang_Resume.pdf"
   width="100%"
   height="900px"
   style="border: none;">
