@@ -1,0 +1,38 @@
+name: Import EgoPAT3Dv2 intro image
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-egopat-intro.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out personal site
+        uses: actions/checkout@v4
+      - name: Copy official EgoPAT3Dv2 paper figure into the site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p images
+          curl --fail --location --silent --show-error --retry 3 \
+            https://raw.githubusercontent.com/ai4ce/EgoPAT3Dv2/main/figs/figure1_v2.jpg \
+            --output images/egopat_intro.jpg
+          test "$(file --brief --mime-type images/egopat_intro.jpg)" = "image/jpeg"
+          test "$(wc -c < images/egopat_intro.jpg)" -gt 10000
+      - name: Commit image to master
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/egopat_intro.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m "Add official EgoPAT3Dv2 introduction figure locally"
+            git push origin HEAD:master
+          fi
