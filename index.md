@@ -67,7 +67,7 @@ permalink: /
 
       <article class="research-item">
         <a class="thumb thumb--paper" href="https://ai4ce.github.io/EgoPAT3Dv2/" target="_blank" rel="noopener noreferrer" aria-label="View the EgoPAT3Dv2 project website">
-          <img src="https://raw.githubusercontent.com/ai4ce/EgoPAT3Dv2/main/figs/figure1_v2.jpg" alt="EgoPAT3Dv2: third-person and egocentric views of robot action-target prediction" loading="lazy">
+          <img src="{{ '/images/egopat_intro.jpg' | relative_url }}" alt="EgoPAT3Dv2: third-person and egocentric views of robot action-target prediction" loading="lazy">
         </a>
         <div class="research-body">
           <h3><a href="https://arxiv.org/abs/2403.05046" target="_blank" rel="noopener noreferrer">EgoPAT3Dv2: Predicting 3D Action Target from 2D Egocentric Vision for Human-Robot Interaction</a></h3>
