@@ -50,7 +50,7 @@ permalink: /
 
       <article class="research-item">
         <a class="thumb" href="https://qiushi-zhang.github.io/PropHand/" target="_blank" rel="noopener noreferrer" aria-label="View the PropHand project website">
-          <img src="https://qiushi-zhang.github.io/PropHand/grasp_cup.jpg" width="560" height="378" alt="PropHand grasping a flexible cup" loading="lazy">
+          <img src="https://qiushi-zhang.github.io/PropHand/screw.jpg" width="560" height="378" alt="PropHand spinning a nut on a screw" loading="lazy">
         </a>
         <div class="research-body">
           <h3><a href="https://qiushi-zhang.github.io/PropHand/" target="_blank" rel="noopener noreferrer">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</a></h3>
@@ -66,22 +66,9 @@ permalink: /
       </article>
 
       <article class="research-item">
-        <div class="thumb" role="img" aria-label="Illustration of egocentric camera observation and three-dimensional target prediction">
-          <div class="ego-art">
-            <svg viewBox="0 0 236 150" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-              <rect x="26" y="26" width="116" height="90" rx="8" fill="#fff" stroke="#b2bfcb" stroke-width="2"/>
-              <path d="M43 101 L75 69 L97 84 L129 53" fill="none" stroke="#91a4b7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              <circle cx="129" cy="53" r="7" fill="#3f87b8"/>
-              <path d="M129 53 L181 29 M129 53 L187 102 M129 53 L158 132" stroke="#679bbf" stroke-width="2" stroke-dasharray="6 6"/>
-              <circle cx="181" cy="29" r="5" fill="#b3c5d7"/>
-              <circle cx="187" cy="102" r="5" fill="#b3c5d7"/>
-              <circle cx="158" cy="132" r="5" fill="#b3c5d7"/>
-              <circle cx="187" cy="102" r="10" fill="none" stroke="#3f87b8" stroke-width="2"/>
-              <text x="43" y="18" fill="#718196" font-size="10" font-family="sans-serif">RGB observation</text>
-              <text x="160" y="147" fill="#4b728e" font-size="10" font-family="sans-serif">3D target</text>
-            </svg>
-          </div>
-        </div>
+        <a class="thumb thumb--paper" href="https://ai4ce.github.io/EgoPAT3Dv2/" target="_blank" rel="noopener noreferrer" aria-label="View the EgoPAT3Dv2 project website">
+          <img src="https://ai4ce.github.io/publications/2024-fang-egopad3dv2/featured.png" width="1420" height="559" alt="EgoPAT3Dv2: third-person and egocentric views of robot action-target prediction" loading="lazy">
+        </a>
         <div class="research-body">
           <h3><a href="https://arxiv.org/abs/2403.05046" target="_blank" rel="noopener noreferrer">EgoPAT3Dv2: Predicting 3D Action Target from 2D Egocentric Vision for Human-Robot Interaction</a></h3>
           <p class="research-authors">Irving Fang, Yuzhong Chen, Yifan Wang, Jianghan Zhang, <strong>Qiushi Zhang</strong>, et al.</p>
