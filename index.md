@@ -73,20 +73,7 @@ permalink: /
       </article>
     </section>
 
-    <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Ongoing Work</h2>
-      <article class="research-item">
-        <div class="thumb" role="img" aria-label="Wearable hand teleoperation concept">
-          <div class="exo-art"><span>EXO</span><small>HAND TELEOPERATION</small></div>
-        </div>
-        <div class="research-body">
-          <h3>Wearable Hand Exoskeleton for Teleoperation</h3>
-          <p class="project-note">Hardware development in progress</p>
-          <p class="research-description">Developing an encoder-based wearable hand mechanism for dexterous teleoperation and demonstration collection, with an emphasis on precise joint tracking, low latency, and bilateral force feedback.</p>
-        </div>
-      </article>
-    </section>
-
+    
     <section id="contact" class="contact" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Contact</h2>
       <p>Feel free to reach out about robotic hardware, force-aware manipulation, and research collaboration. <a href="mailto:qiushiz@cmu.edu">qiushiz@cmu.edu</a></p>
