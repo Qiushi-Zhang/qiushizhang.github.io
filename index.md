@@ -36,13 +36,7 @@ permalink: /
   </header>
 
   <main>
-    <section id="news" aria-labelledby="news-heading">
-      <h2 id="news-heading">News</h2>
-      <ul class="news">
-        <li><time datetime="2026-10">[Oct. 2026]</time><span>Launched the <a href="https://qiushi-zhang.github.io/PropHand/" target="_blank" rel="noopener noreferrer">PropHand project website</a>, featuring force-control experiments and manipulation demonstrations.</span></li>
-        <li><time datetime="2026">[2026]</time><span><a href="https://qiushi-zhang.github.io/PropHand/" target="_blank" rel="noopener noreferrer">PropHand</a> was accepted to the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026).</span></li>
-      </ul>
-    </section>
+    
 
     <section id="research" aria-labelledby="research-heading">
       <h2 id="research-heading">Research</h2>
