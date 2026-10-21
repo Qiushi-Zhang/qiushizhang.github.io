@@ -3,7 +3,6 @@ layout: null
 title: "Qiushi Zhang | Robotics Research"
 permalink: /
 ---
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
